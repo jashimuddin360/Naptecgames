@@ -23,44 +23,53 @@
                             <span></span>
                         </span>
                         <ul class="menu clearfix">
-                            <li class="inline-block">
-                                <a href="games.php" class="menu">
-                                    Games
-                                </a>
-                            </li>
+                                <li class="inline-block active">
+                                    <a href="games.php">
+                                        Games
+                                    </a>
+                                </li>
+                                <li class="inline-block menu-item-has-children">
+                                    <a href="#">
+                                        Company
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="about.php">About</a>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="team.php">Team</a>
+                                        </li>
+                                        <li>
+                                            <a href="blog.php">Blog</a>
+                                        </li>
 
+                                    </ul>
+                                </li>
+                                <li class="inline-block menu-item-has-children">
+                                    <a href="#">
+                                        Career
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="job-openings.php">Job Openings</a>
+                                        </li>
+                                        <li>
+                                            <a href="internships.php">Internships</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="inline-block">
+                                    <a href="research-and-development.php">
+                                        R&D
+                                    </a>
+                                </li>
 
-                            <li class="inline-block">
-                                <a href="team.php" class="menu">
-                                    Team
-                                </a>
-                            </li>
-                            <li class="inline-block">
-                                <a href="research-and-development.php" class="menu">
-                                    Reseach & Development
-                                </a>
-                            </li>
-                            <li class="inline-block" class="menu">
-                                <a href="career.php">
-                                    Career
-                                </a>
-                            </li>
-                            <li class="inline-block" class="menu">
-                                <a href="blog.php">
-                                    Blogs
-                                </a>
-                            </li>
-                            <li class="inline-block" class="menu">
-                                <a href="about.php">
-                                    About
-                                </a>
-                            </li>
-                            <li class="inline-block" class="menu">
-                                <a href="contacts.php">
-                                    Contacts
-                                </a>
-                            </li>
-                        </ul>
+                                <li class="inline-block">
+                                    <a href="contacts.html">
+                                        Contacts
+                                    </a>
+                                </li>
+                            </ul>
                     </div>
                 </div>
                 <!-- <div class="table-cell valign-top text-right">

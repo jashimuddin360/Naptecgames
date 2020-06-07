@@ -21,8 +21,7 @@
     <link rel="stylesheet" href="./assets/css/responsive.css" />
     <!-- Animate CSS -->
     <link rel="stylesheet" href="./assets/plugins/animate.css-master/animate.min.css">
-    <!-- Light Box -->
-    <link href="./assets/plugins/lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
+
     <!-- Magnific Popup CSS -->
     <link rel="stylesheet" href="./assets/plugins/Magnific-Popup/dist/magnific-popup.css">
 
@@ -121,6 +120,22 @@
             font-family: "Agency FB";
             margin-bottom: 0px;
 
+        }
+
+
+        /* slider Animation Delay And show */
+
+        .head{
+            animation-delay: .7s;
+            animation-duration: 1.1s;
+        }
+        .cta{
+            animation-delay: 1s;
+            animation-duration: 1.4s;
+        }
+        .desc{
+            animation-delay: 1.2s;
+            animation-duration: 1.7s;
         }
 
         .main-slider{
