@@ -33,7 +33,7 @@
 </head>
 
 <body>
-    <?php include "./inc/header.php"; ?>
+    <?php include "./inc/header.php";?>
     <!-- PAGE NAME START -->
     <section class="page-name parallax" data-paroller-factor="0.1" data-paroller-type="background" data-paroller-direction="vertical">
         <div class="container">
@@ -122,25 +122,26 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <form action="#" class="contact-us-form mt100">
+                    <div class="status"></div>
+                    <form action="" class="contact-us-form mt100  form-area" method="post">
                         <div class="row">
                             <div class="input-wrap col-md-6 col-sm-6">
-                                <input type="text" class="general_input italic" placeholder="Full name">
+                                <input type="text" id="name" class="general_input italic" placeholder="Full name" name="name">
                             </div>
                             <div class="input-wrap col-md-6 col-sm-6">
-                                <input type="email" class="general_input italic" placeholder="Email address">
+                                <input type="email" id="email" class="general_input italic" placeholder="Email address" name="email">
                             </div>
                             <div class="input-wrap col-md-6 col-sm-6">
-                                <input type="email" class="general_input italic" placeholder="Phone Number">
+                                <input type="email" id="phone" class="general_input italic" placeholder="Phone Number" name="phone">
                             </div>
                             <div class="input-wrap col-md-6 col-sm-6">
-                                <input type="email" class="general_input italic" placeholder="Subject">
+                                <input type="email" id="subject" class="general_input italic" placeholder="Subject" name="subject">
                             </div>
                             <div class="input-wrap col-md-12">
-                                <textarea class="general_input italic" placeholder="Your Message."></textarea>
+                                <textarea class="general_input italic" id="message" placeholder="Your Message." name="message"></textarea>
                             </div>
                         </div>
-                        <input type="submit" class="btn gradient mt30 color-white color-white plr50 ptb19" value="Send message">
+                        <input type="submit" class="btn gradient mt30 color-white color-white plr50 ptb19" value="Send message" id="submit-contact-form">
                     </form>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt100">
@@ -153,7 +154,7 @@
         </div>
     </section>
     <!-- SECTION END -->
-    <?php include "./inc/footer.php"; ?>
+    <?php include "./inc/footer.php";?>
     <!-- Scripts -->
     <script src="./assets/js/jquery-3.3.1.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GALLERY MASONRY | INDIEGA</title>
+    <title>GALLERY | NAPTECHGAMES</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <!-- Google Fonts -->
@@ -23,8 +23,8 @@
     <link rel="stylesheet" href="./assets/plugins/animate.css-master/animate.min.css">
     <!-- Light Box -->
     <link href="./assets/plugins/lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
-    <!-- Video js -->
-    <link href="./assets/css/video-js.css" rel="stylesheet">
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="./assets/plugins/Magnific-Popup/dist/magnific-popup.css">
     <!-- Datapicker -->
     <link href="./assets/plugins/jquery-date-range-picker-master/dist/daterangepicker.min.css" rel="stylesheet">
     <!-- Sliders -->
@@ -138,7 +138,7 @@ $image = [
                                             <?php echo $image[0]["imageDetails"] ?>
                                             </a>
                                             <div class="btn-container text-center mt30">
-                                                <a href="#" class="item-btn inline-block valign-middle">
+                                                <a href="./assets/images/gallery/<?php echo $image[0]["imageName"] ?>" class="item-btn inline-block valign-middle test-popup-link">
                                                     <i class="fa fa-search" aria-hidden="true"></i>
                                                 </a>
 
@@ -158,7 +158,7 @@ $image = [
                                             <?php echo $image[1]["imageDetails"] ?>
                                             </a>
                                             <div class="btn-container text-center mt30">
-                                                <a href="#" class="item-btn inline-block valign-middle">
+                                                <a href="./assets/images/gallery/<?php echo $image[1]["imageName"] ?>" class="item-btn inline-block valign-middle test-popup-link">
                                                     <i class="fa fa-search" aria-hidden="true"></i>
                                                 </a>
 
@@ -178,7 +178,7 @@ $image = [
                                             <?php echo $image[2]["imageDetails"] ?>
                                             </a>
                                             <div class="btn-container text-center mt30">
-                                                <a href="#" class="item-btn inline-block valign-middle">
+                                                <a href="./assets/images/gallery/<?php echo $image[2]["imageName"] ?>" class="item-btn inline-block valign-middle test-popup-link">
                                                     <i class="fa fa-search" aria-hidden="true"></i>
                                                 </a>
 
@@ -198,7 +198,7 @@ $image = [
                                             <?php echo $image[3]["imageDetails"] ?>
                                             </a>
                                             <div class="btn-container text-center mt30">
-                                                <a href="#" class="item-btn inline-block valign-middle">
+                                                <a href="./assets/images/gallery/<?php echo $image[3]["imageName"] ?>" class="item-btn inline-block valign-middle test-popup-link">
                                                     <i class="fa fa-search" aria-hidden="true"></i>
                                                 </a>
 
@@ -218,7 +218,7 @@ $image = [
                                             <?php echo $image[4]["imageDetails"] ?>
                                             </a>
                                             <div class="btn-container text-center mt30">
-                                                <a href="#" class="item-btn inline-block valign-middle">
+                                                <a href="./assets/images/gallery/<?php echo $image[4]["imageName"] ?>" class="item-btn inline-block valign-middle test-popup-link">
                                                     <i class="fa fa-search" aria-hidden="true"></i>
                                                 </a>
 
@@ -238,7 +238,7 @@ $image = [
                                             <?php echo $image[5]["imageDetails"] ?>
                                             </a>
                                             <div class="btn-container text-center mt30">
-                                                <a href="#" class="item-btn inline-block valign-middle">
+                                                <a href="./assets/images/gallery/<?php echo $image[5]["imageName"] ?>" class="item-btn inline-block valign-middle test-popup-link">
                                                     <i class="fa fa-search" aria-hidden="true"></i>
                                                 </a>
 
@@ -258,7 +258,7 @@ $image = [
                                             <?php echo $image[6]["imageDetails"] ?>
                                             </a>
                                             <div class="btn-container text-center mt30">
-                                                <a href="#" class="item-btn inline-block valign-middle">
+                                                <a href="./assets/images/gallery/<?php echo $image[6]["imageName"] ?>" class="item-btn inline-block valign-middle test-popup-link">
                                                     <i class="fa fa-search" aria-hidden="true"></i>
                                                 </a>
 
@@ -278,7 +278,7 @@ $image = [
                                             <?php echo $image[7]["imageDetails"] ?>
                                             </a>
                                             <div class="btn-container text-center mt30">
-                                                <a href="#" class="item-btn inline-block valign-middle">
+                                                <a href="./assets/images/gallery/<?php echo $image[7]["imageName"] ?>" class="item-btn inline-block valign-middle test-popup-link">
                                                     <i class="fa fa-search" aria-hidden="true"></i>
                                                 </a>
 
@@ -298,7 +298,7 @@ $image = [
                                             <?php echo $image[8]["imageDetails"] ?>
                                             </a>
                                             <div class="btn-container text-center mt30">
-                                                <a href="#" class="item-btn inline-block valign-middle">
+                                                <a href="./assets/images/gallery/<?php echo $image[8]["imageName"] ?>" class="item-btn inline-block valign-middle test-popup-link">
                                                     <i class="fa fa-search" aria-hidden="true"></i>
                                                 </a>
 
@@ -335,6 +335,8 @@ $image = [
     <script src="./assets/plugins/jquery-date-range-picker-master/dist/jquery.daterangepicker.min.js"></script>
     <script src="./assets/plugins/wow-master/dist/wow.min.js"></script>
     <script src="./assets/js/script.js"></script>
+    <!-- Magnific popup script file -->
+    <script src="assets/plugins/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
 </body>
 
 </html>

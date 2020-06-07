@@ -4,6 +4,48 @@
 // Custom Js added
 // Active path links
 $(document).ready(function () {
+	// contact Ajax
+
+	$('#submit-contact-form').on('click', function (e) {
+		// if ($('#name').val() == '') {
+		// 	$('#name').addClass('empty');
+		// }
+		// if ($('#email').val() == '') {
+		// 	$('#email').addClass('empty');
+		// }
+		// if ($('#subject').val() == '') {
+		// 	$('#subject').addClass('empty');
+		// }
+		$('#submit-contact-form').val('sending...');
+		$.post(
+			'message.php', {
+				name: $('#name').val(),
+				email: $('#email').val(),
+				phone: $('#phone').val(),
+				subject: $('#subject').val(),
+				message: $('#message').val(),
+			},
+			function (data) {
+				if (data == 'success') {
+					$('.form-area').hide();
+					$('.status').html(
+						'Form Successfully Submitted.'
+					);
+				}
+				if (data == 'failed') {
+
+					$('.status').html(
+						'Failed To submit the form! Please try again.'
+					);
+					$('.status').addClass('fail');
+				}
+
+			}
+		);
+		return false;
+	});
+
+	// Path active link fixer
 	var path = window.location.pathname.split('/').pop()
 	console.log(path)
 	if (path == '') {
@@ -25,8 +67,15 @@ $(document).ready(function () {
 		var target = $('.inline-block a[href="team.php"]')
 		target.addClass('active-menu')
 	}
-})
-;(function ($) {
+	// Custom Magnific Popup 
+	$('.test-popup-link').magnificPopup({
+		type: 'image',
+		gallery: {
+			enabled: true
+		},
+	});
+});
+(function ($) {
 	var winObj = $(window),
 		bodyObj = $('body'),
 		headerObj = $('header')
@@ -103,8 +152,7 @@ $(document).ready(function () {
 	/*----------------------------------------------------*/
 	var toTop = $('#toTop')
 	toTop.on('click', function () {
-		$('html, body').animate(
-			{
+		$('html, body').animate({
 				scrollTop: 0,
 			},
 			600
@@ -163,8 +211,7 @@ $(document).ready(function () {
 		arrows: true,
 		prevArrow: '<i class="fa fa-angle-left slick-arrow"></i>',
 		nextArrow: '<i class="fa fa-angle-right slick-arrow"></i>',
-		responsive: [
-			{
+		responsive: [{
 				breakpoint: 1120,
 				settings: {
 					autoplay: true,
@@ -208,14 +255,12 @@ $(document).ready(function () {
 		prevArrow: '<i class="fa fa-angle-left slick-arrow"></i>',
 		nextArrow: '<i class="fa fa-angle-right slick-arrow"></i>',
 		adaptiveHeight: true,
-		responsive: [
-			{
-				breakpoint: 992,
-				settings: {
-					slidesToShow: 1,
-				},
+		responsive: [{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 1,
 			},
-		],
+		}, ],
 	})
 
 	$('.game-img-slider').slick({
@@ -228,8 +273,7 @@ $(document).ready(function () {
 		prevArrow: '<i class="fa fa-angle-left slick-arrow"></i>',
 		nextArrow: '<i class="fa fa-angle-right slick-arrow"></i>',
 		adaptiveHeight: true,
-		responsive: [
-			{
+		responsive: [{
 				breakpoint: 992,
 				settings: {
 					slidesToShow: 2,
@@ -416,8 +460,7 @@ $(document).ready(function () {
 		bar.text.style.fontSize = '14px'
 
 		bar.animate(
-			animate,
-			{
+			animate, {
 				duration: 2500,
 			},
 			function () {}
@@ -501,165 +544,128 @@ $(document).ready(function () {
 					lng: -74.0059731,
 				},
 				zoom: 15,
-				styles: [
-					{
+				styles: [{
 						elementType: 'geometry',
-						stylers: [
-							{
-								color: '#242f3e',
-							},
-						],
+						stylers: [{
+							color: '#242f3e',
+						}, ],
 					},
 					{
 						elementType: 'labels.text.stroke',
-						stylers: [
-							{
-								color: '#242f3e',
-							},
-						],
+						stylers: [{
+							color: '#242f3e',
+						}, ],
 					},
 					{
 						elementType: 'labels.text.fill',
-						stylers: [
-							{
-								color: '#746855',
-							},
-						],
+						stylers: [{
+							color: '#746855',
+						}, ],
 					},
 					{
 						featureType: 'administrative.locality',
 						elementType: 'labels.text.fill',
-						stylers: [
-							{
-								color: '#d59563',
-							},
-						],
+						stylers: [{
+							color: '#d59563',
+						}, ],
 					},
 					{
 						featureType: 'poi',
 						elementType: 'labels.text.fill',
-						stylers: [
-							{
-								color: '#d59563',
-							},
-						],
+						stylers: [{
+							color: '#d59563',
+						}, ],
 					},
 					{
 						featureType: 'poi.park',
 						elementType: 'geometry',
-						stylers: [
-							{
-								color: '#263c3f',
-							},
-						],
+						stylers: [{
+							color: '#263c3f',
+						}, ],
 					},
 					{
 						featureType: 'poi.park',
 						elementType: 'labels.text.fill',
-						stylers: [
-							{
-								color: '#6b9a76',
-							},
-						],
+						stylers: [{
+							color: '#6b9a76',
+						}, ],
 					},
 					{
 						featureType: 'road',
 						elementType: 'geometry',
-						stylers: [
-							{
-								color: '#38414e',
-							},
-						],
+						stylers: [{
+							color: '#38414e',
+						}, ],
 					},
 					{
 						featureType: 'road',
 						elementType: 'geometry.stroke',
-						stylers: [
-							{
-								color: '#212a37',
-							},
-						],
+						stylers: [{
+							color: '#212a37',
+						}, ],
 					},
 					{
 						featureType: 'road',
 						elementType: 'labels.text.fill',
-						stylers: [
-							{
-								color: '#9ca5b3',
-							},
-						],
+						stylers: [{
+							color: '#9ca5b3',
+						}, ],
 					},
 					{
 						featureType: 'road.highway',
 						elementType: 'geometry',
-						stylers: [
-							{
-								color: '#746855',
-							},
-						],
+						stylers: [{
+							color: '#746855',
+						}, ],
 					},
 					{
 						featureType: 'road.highway',
 						elementType: 'geometry.stroke',
-						stylers: [
-							{
-								color: '#1f2835',
-							},
-						],
+						stylers: [{
+							color: '#1f2835',
+						}, ],
 					},
 					{
 						featureType: 'road.highway',
 						elementType: 'labels.text.fill',
-						stylers: [
-							{
-								color: '#f3d19c',
-							},
-						],
+						stylers: [{
+							color: '#f3d19c',
+						}, ],
 					},
 					{
 						featureType: 'transit',
 						elementType: 'geometry',
-						stylers: [
-							{
-								color: '#2f3948',
-							},
-						],
+						stylers: [{
+							color: '#2f3948',
+						}, ],
 					},
 					{
 						featureType: 'transit.station',
 						elementType: 'labels.text.fill',
-						stylers: [
-							{
-								color: '#d59563',
-							},
-						],
+						stylers: [{
+							color: '#d59563',
+						}, ],
 					},
 					{
 						featureType: 'water',
 						elementType: 'geometry',
-						stylers: [
-							{
-								color: '#17263c',
-							},
-						],
+						stylers: [{
+							color: '#17263c',
+						}, ],
 					},
 					{
 						featureType: 'water',
 						elementType: 'labels.text.fill',
-						stylers: [
-							{
-								color: '#515c6d',
-							},
-						],
+						stylers: [{
+							color: '#515c6d',
+						}, ],
 					},
 					{
 						featureType: 'water',
 						elementType: 'labels.text.stroke',
-						stylers: [
-							{
-								color: '#17263c',
-							},
-						],
+						stylers: [{
+							color: '#17263c',
+						}, ],
 					},
 				],
 				disableDefaultUI: true,

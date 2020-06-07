@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ABOUT | INDIEGA</title>
+    <title>ABOUT | NAPTECHGAMES</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="z/assets/images/favicon.ico" type="image/x-icon">
     <!-- Google Fonts -->
@@ -23,8 +23,6 @@
     <link rel="stylesheet" href="./assets/plugins/animate.css-master/animate.min.css">
     <!-- Light Box -->
     <link href="./assets/plugins/lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
-    <!-- Video js -->
-    <link href="./assets/css/video-js.css" rel="stylesheet">
     <!-- Datapicker -->
     <link href="./assets/plugins/jquery-date-range-picker-master/dist/daterangepicker.min.css" rel="stylesheet">
     <!-- Sliders -->
@@ -33,7 +31,7 @@
 </head>
 
 <body>
-    <?php include "./inc/header.php"; ?>
+    <?php include "./inc/header.php";?>
     <!-- PAGE NAME START -->
     <section class="page-name parallax" data-paroller-factor="0.1" data-paroller-type="background" data-paroller-direction="vertical">
         <div class="container">
@@ -80,8 +78,7 @@
                     </div>
                 </div>
                 <div class="item-right col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <video id="vid1" class="vjs-big-play-centered video-js vjs-default-skin vjs-16-9 equal-height" controls autoplay poster="./assets/images/585x550.jpg" data-setup='{ "techOrder": ["html5"], "sources": [{ "type": "video/mp4", "src": "http://denysthemes.com/html/riliant/assets/video/earth.mp4"}], "autoplay": false }'>
-                    </video>
+                <iframe width="560" height="415" src="https://www.youtube.com/embed/4OWm5aA8j5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -233,7 +230,7 @@
         </div>
     </section>
     <!-- REGISTER SECTION END -->
-    <?php include "./inc/footer.php"; ?>
+    <?php include "./inc/footer.php";?>
     <!-- Scripts -->
     <script src="./assets/js/jquery-3.3.1.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>

@@ -21,7 +21,6 @@
 /*   18 - Games Page                */
 /*   19 - Single Games Page         */
 /*   20 - Gallery Pages             */
-/*   21 - Single image Page         */
 /*   22 - Contact Page              */
 /*   23 - Blog Page                 */
 /*   24 - Post Page                 */
@@ -2543,64 +2542,6 @@ header .right-bl .search-content button {
   border-bottom: none;
 }
 
-/* ==========================================================================
-   09. FAQ SECTION
-   ========================================================================== */
-.faq-container .counter-bl {
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
-  font-family: "Agency FB";
-  background-image: linear-gradient(to right, #3dd0d8 0%, rgba(124, 105, 227, 0.64) 100%);
-  border-radius: 50%;
-  text-align: center;
-  font-size: 48px;
-  font-weight: 700;
-  color: #fff;
-}
-
-.faq-container .column {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.faq-container .left-column-1 {
-  border-right: 1px solid rgba(194, 212, 248, 0.2);
-  border-bottom: 1px solid rgba(194, 212, 248, 0.2);
-}
-
-.faq-container .left-column-1 .counter-content {
-  padding-left: 30px;
-}
-
-.faq-container .right-column-2 {
-  border-bottom: 1px solid rgba(194, 212, 248, 0.2);
-}
-
-.faq-container .right-column-2 .counter-content {
-  padding-right: 30px;
-}
-
-.faq-container .left-column-3 {
-  border-right: 1px solid rgba(194, 212, 248, 0.2);
-}
-
-.faq-container .left-column-3 .counter-content {
-  padding-left: 30px;
-}
-
-.faq-container .right-column-4 .counter-content {
-  padding-right: 30px;
-}
-
-.faq-container .counter-content .counter-title {
-  text-shadow: 0 2px 4.8px rgba(30, 29, 50, 0.3);
-  font-size: 24px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: "Agency FB";
-  color: #fff;
-}
 
 /* ==========================================================================
    10. REGISTRATION SECTION
@@ -2858,168 +2799,6 @@ footer.footer .copyright {
   margin-bottom: 0;
 }
 
-/* ==========================================================================
-   14. FAQ PAGE
-   ========================================================================== */
-.column-cell {
-  margin-bottom: 50px;
-}
-
-.column-cell li {
-  list-style: none;
-  border: none;
-  border-radius: 0 !important;
-  margin-top: 10px !important;
-  background-color: transparent;
-}
-
-.column-cell li:first-child {
-  margin-top: 0 !important;
-}
-
-.column-cell li a {
-  color: #fff;
-  border-radius: 10px 10px 0px 0px;
-  padding: 19px 50px 19px 35px;
-  position: relative;
-  background: linear-gradient(to right, #3dd0d8 0%, rgba(124, 105, 227, 0.64) 100%);
-  transition: all 0.3s ease-out;
-}
-
-.column-cell li a:after {
-  content: '-';
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: block;
-  text-align: center;
-  width: 50px;
-  height: 60px;
-  line-height: 60px;
-  font-size: 20px;
-  font-weight: 200;
-  color: #fff;
-  transition: all 0.3s ease-out;
-}
-
-.column-cell li a .fa {
-  color: #fff;
-  transition: all 0.3s ease-out;
-}
-
-.column-cell li a.collapsed {
-  background: #292845;
-  border-radius: 10px;
-  transition: all 0.3s ease-out;
-}
-
-.column-cell li a.collapsed:after {
-  content: '+';
-  color: #7c69e3;
-  transition: all 0.3s ease-out;
-}
-
-.column-cell li a.collapsed .fa {
-  color: #3dd0d8;
-  transition: all 0.3s ease-out;
-}
-
-.column-cell li a.collapsed:hover {
-  background: linear-gradient(to right, #3dd0d8 0%, rgba(124, 105, 227, 0.64) 100%);
-  transition: all 0.3s ease-out;
-}
-
-.column-cell li a.collapsed:hover .fa {
-  color: #fff;
-  transition: all 0.3s ease-out;
-}
-
-.column-cell li a .column-title {
-  margin-left: 20px;
-}
-
-.column-cell li .spoiler-hidden {
-  background-color: #181728;
-  border-radius: 0 0 10px 10px;
-  padding: 0 40px;
-}
-
-.column-cell li .spoiler-hidden .open-bl {
-  line-height: 26px;
-  padding: 40px 0 20px 0;
-}
-
-.input-wrap {
-  margin-bottom: 20px;
-}
-
-.input-wrap:last-child {
-  margin-bottom: 0;
-}
-
-.input-wrap input {
-  width: 100%;
-  border: none;
-  border-radius: 10px;
-  background: #292845;
-  text-transform: uppercase;
-  font-style: italic;
-  font-size: 14px;
-  outline: none;
-  font-weight: 400;
-  padding: 19px 30px;
-  /* Firefox 19+ */
-  /* Firefox 18- */
-}
-
-.input-wrap input::-webkit-input-placeholder {
-  color: #c2d4f8;
-}
-
-.input-wrap input::-moz-placeholder {
-  color: #c2d4f8;
-}
-
-.input-wrap input:-moz-placeholder {
-  color: #c2d4f8;
-}
-
-.input-wrap input:-ms-input-placeholder {
-  color: #c2d4f8;
-}
-
-.input-wrap textarea {
-  width: 100%;
-  height: 160px;
-  border: none;
-  border-radius: 10px;
-  background: #292845;
-  resize: none;
-  text-transform: uppercase;
-  font-style: italic;
-  font-size: 14px;
-  outline: none;
-  font-weight: 400;
-  padding: 19px 30px;
-  /* Firefox 19+ */
-  /* Firefox 18- */
-}
-
-.input-wrap textarea::-webkit-input-placeholder {
-  color: #c2d4f8;
-}
-
-.input-wrap textarea::-moz-placeholder {
-  color: #c2d4f8;
-}
-
-.input-wrap textarea:-moz-placeholder {
-  color: #c2d4f8;
-}
-
-.input-wrap textarea:-ms-input-placeholder {
-  color: #c2d4f8;
-}
 
 /* ==========================================================================
    15. TEAM PAGE
@@ -3120,91 +2899,14 @@ footer.footer .copyright {
   display: none;
 }
 
-/* ==========================================================================
-   17. TESTIMONIALS PAGE
-   ========================================================================== */
-.testimonials-bl .slide-item {
-  margin-bottom: 120px;
-}
+
 
 /* ==========================================================================
    18. GAMES PAGE
    ========================================================================== */
 
 
-/* span.get {
-  margin-right: 75px;
-}
 
-span.availabe {
-  margin: 0px 20px 0px 10px;
-}
-
-.game__button {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 2rem 0rem 0rem 0rem;
-}
-
-.game__button p {
-  display: inline-table;
-  color: #fff !important;
-  font-size: 14px !important;
-  margin: 0px 0px 13px 0px !important;
-  line-height: 20px !important;
-
-}
-
-.playstore-text {
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.appstore-text {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0px 35px 0px 10px;
-}
-
-.game__button--playstore img {
-  width: 40px !important;
-  margin-top: 15px !important;
-}
-
-.game__button--appstore img {
-  width: 40px !important;
-  margin-top: 15px !important;
-}
-
-.game__button--playstore {
-  width: 210px;
-  background: black;
-  border-radius: 10px;
-  margin-right: 15px;
-  transition: all .6s ease;
-  border: 1px solid #c2d4f8;
-}
-
-
-
-.game__button--playstore:hover {
-  background-color: #272727;
-  box-shadow: 0px 10px 20px rgba(57, 56, 61, 0.205);
-
-}
-
-.game__button--appstore {
-  width: 210px;
-  background: black;
-  border-radius: 10px;
-  border: 1px solid #c2d4f8;
-}
-
-.game__button--appstore:hover {
-  background-color: #272727;
-  box-shadow: 0px 10px 10px rgba(57, 56, 61, 0.205);
-} */
 
 
 /* Playstore and Appstore button style */
@@ -3387,169 +3089,8 @@ span.availabe {
   padding-right: 15px;
 }
 
-.gallery .regular-tpl .item {
-  margin-bottom: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
-.gallery .full-tpl .item {
-  margin-bottom: 30px;
-  padding-left: 0;
-  padding-right: 0;
-}
 
-.gallery .full-tpl .item .item-content .image-bl {
-  position: relative;
-}
-
-.gallery .full-tpl .item .item-content .image-bl:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(to right, #3dd0d8 0%, rgba(146, 82, 234, 0.64) 100%);
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease-out;
-}
-
-.gallery .full-tpl .item .item-content:hover .image-bl:before {
-  opacity: 1;
-  visibility: visible;
-  transition: all 0.3s ease-out;
-}
-
-.gallery .full-tpl .item .item-content:hover .img-name h5 {
-  color: #3dd0d8;
-  transition: all 0.3s ease-out;
-}
-
-.gallery .full-tpl .item .img-name {
-  display: inline-block;
-  margin-top: 10px;
-}
-
-.gallery .full-tpl .item .img-name h5 {
-  display: inline-block;
-  transition: all 0.3s ease-out;
-}
-
-.gallery .extended-tpl .item {
-  margin-bottom: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.gallery .extended-tpl .item .image-bl {
-  position: relative;
-}
-
-.gallery .extended-tpl .item .image-bl:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: linear-gradient(to right, #3dd0d8 0%, rgba(146, 82, 234, 0.64) 100%);
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease-out;
-}
-
-.gallery .extended-tpl .item:hover .image-bl:before {
-  opacity: 1;
-  visibility: visible;
-  transition: all 0.3s ease-out;
-}
-
-.gallery .extended-tpl .item .item-content {
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.gallery .extended-tpl .item .img-name {
-  display: inline-block;
-  margin-top: 10px;
-}
-
-.gallery .extended-tpl .item .img-name h5 {
-  display: inline-block;
-  transition: all 0.3s ease-out;
-}
-
-.gallery .extended-tpl .item .img-name:hover h5 {
-  color: #3dd0d8;
-  transition: all 0.3s ease-out;
-}
-
-.gallery .item.first .category {
-  color: #3dd0d8;
-}
-
-.gallery .item.second .category {
-  color: #5c9ddd;
-}
-
-.gallery .item.third .category {
-  color: #7c69e3;
-}
-
-/* ==========================================================================
-   21. SINGLE IMAGE PAGE
-   ========================================================================== */
-.item-wrapper-bl {
-  max-width: 970px;
-  margin: 0 auto;
-}
-
-.item-wrapper-bl .bottom-info-bl {
-  border-radius: 0 0 10px 10px;
-}
-
-.item-wrapper-bl .slick-list {
-  border-radius: 10px 10px 0 0;
-}
-
-.latest-image .latest-item {
-  padding: 0;
-  margin-bottom: 30px;
-}
-
-.latest-image .latest-item .latest-link h5 {
-  transition: all 0.3s ease-out;
-}
-
-.latest-image .latest-item:hover .image-wrapper:before {
-  opacity: 1;
-  visibility: visible;
-  transition: all 0.3s ease-out;
-}
-
-.latest-image .latest-item:hover .latest-link h5 {
-  color: #3dd0d8;
-  transition: all 0.3s ease-out;
-}
-
-.latest-image .latest-item .image-wrapper {
-  position: relative;
-}
-
-.latest-image .latest-item .image-wrapper:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(to right, #3dd0d8 0%, rgba(146, 82, 234, 0.64) 100%);
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease-out;
-}
 
 /* ==========================================================================
    22. CONTACT PAGE
@@ -3561,6 +3102,21 @@ span.availabe {
 .contact-page .icon-bl {
   width: 50px;
   padding-right: 15px;
+}
+
+
+.status {
+  color: #fff;
+  background: #2be6e6;
+  line-height: 55px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+.fail {
+  background: #e62b5f !important;
 }
 
 /* ==========================================================================
