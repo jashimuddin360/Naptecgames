@@ -181,20 +181,22 @@
                                     </div>
                                 </div>
                                 <div class="tab-pane fade text-left clearfix" id="send-message">
-                                    <form action="#" class="ask-form mt40">
+                                    <div class="status"></div>
+                                    <form method="post" class="ask-form mt40 form-area">
                                         <div class="input-wrap">
-                                            <input type="text" placeholder="Your name">
+                                            <input type="text" placeholder="Your name" name="name" id="name">
                                         </div>
                                         <div class="input-wrap">
-                                            <input type="email" placeholder="Email address">
+                                            <input type="email" placeholder="Email address" name="email" id="email">
                                         </div>
                                         <div class="input-wrap">
-                                            <input type="text" placeholder="Subject">
+                                            <input type="text" placeholder="Subject" name="subject" id="subject">
                                         </div>
                                         <div class="input-wrap">
-                                            <textarea placeholder="Your question"></textarea>
+                                            <textarea placeholder="Your question" name="message" id="message"></textarea>
                                         </div>
-                                        <input type="submit" class="btn gradient color-white color-white plr50 ptb19" value="Send message">
+                                        <input type="hidden" name="teamMail" value="suzana@naptechgames.com" id="teamMail">
+                                        <input type="submit" class="btn gradient color-white color-white plr50 ptb19" value="Send message" id="team-submit-contact-form">
                                     </form>
                                 </div>
                             </div>

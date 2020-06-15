@@ -5,14 +5,15 @@ require_once "PHPMailer/SMTP.php";
 
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
-$fullName = $_POST['name'];
-$email = $_POST['email'];
-$phone = $_POST['phone'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
 
-$mail = new PHPMailer( true );
-if ( $fullName && $email && $subject ) {
+$fullName = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
+$email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+$phone = filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_NUMBER_INT);
+$subject = filter_input(INPUT_POST, 'subject', FILTER_SANITIZE_SPECIAL_CHARS);
+$message = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_SPECIAL_CHARS);
+
+$mail = new PHPMailer(true);
+if ($fullName && $email && $subject) {
     try {
         $mail->Host = "mail.naptechgames.com";
         $mail->SMTPAuth = true;
@@ -21,14 +22,14 @@ if ( $fullName && $email && $subject ) {
         $mail->SMTPSecure = 'tls';
         $mail->Port = 465;
 
-        $mail->setFrom( "{$email}" );
-        $mail->addAddress( 'info@naptechgames.com' );
+        $mail->setFrom("{$email}");
+        $mail->addAddress('info@naptechgames.com');
         $mail->Subject = "{$subject}";
         $mail->Body = "Name: {$fullName}<br>Phone: {$phone}<br><br><br> {$message}";
-        $mail->isHTML( true );
+        $mail->isHTML(true);
         $mail->send();
         echo "success";
-    } catch ( Exception $e ) {
+    } catch (Exception $e) {
         echo "failed";
     }
 }

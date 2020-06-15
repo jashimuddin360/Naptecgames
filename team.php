@@ -33,7 +33,7 @@
 </head>
 
 <body>
-    <?php include "./inc/header.php";?>
+    <?php include "./inc/header.php"; ?>
     <!-- PAGE NAME START -->
     <section class="page-name parallax" data-paroller-factor="0.1" data-paroller-type="background" data-paroller-direction="vertical">
         <div class="container">
@@ -59,116 +59,109 @@
 
                     <?php
 
-$teamMember = [
-    "Musabbir Hossain"  => [
-        "designation"   => "Game Producer",
-        "memberURL"     => "team/musabbir-hosain.php",
-        "facebookURL"   => "https://facebook.com",
-        "twitterURL"    => "https://twitter.com",
-        "googlePlusURL" => "https://google.com",
-    ],
-    "Swajon Rahman"     => [
-        "designation"   => "Graphics Designer",
-        "memberURL"     => "team/swajon-rahaman.php",
-        "facebookURL"   => "https://facebook.com",
-        "twitterURL"    => "https://twitter.com",
-        "googlePlusURL" => "https://google.com",
-    ],
-    "Mazma Mim"         => [
-        "designation"   => "Game Designer",
-        "memberURL"     => "team/mazma-mim.php",
-        "facebookURL"   => "https://facebook.com",
-        "twitterURL"    => "https://twitter.com",
-        "googlePlusURL" => "https://google.com",
-    ],
-    "Suzana Haque Esha" => [
-        "designation"   => "Game Designer",
-        "memberURL"     => "tteam/suzana-haque-esha.php",
-        "facebookURL"   => "https://facebook.com",
-        "twitterURL"    => "https://twitter.com",
-        "googlePlusURL" => "https://google.com",
-    ],
-    "Md Mehedi Hasan"   => [
-        "designation"   => "Game Developer",
-        "memberURL"     => "team/md-mehedi-hasan.php",
-        "facebookURL"   => "https://facebook.com",
-        "twitterURL"    => "https://twitter.com",
-        "googlePlusURL" => "https://google.com",
-    ],
-    "Md Rulin Rahman"   => [
-        "designation"   => "Game Developer",
-        "memberURL"     => "team/md-rulin-rahman.php",
-        "facebookURL"   => "https://facebook.com",
-        "twitterURL"    => "https://twitter.com",
-        "googlePlusURL" => "https://google.com",
-    ],
-    "Pulak Dhar"        => [
-        "designation"   => "Sound Engineer",
-        "memberURL"     => "team/pulak-dhar.php",
-        "facebookURL"   => "https://facebook.com",
-        "twitterURL"    => "https://twitter.com",
-        "googlePlusURL" => "https://google.com",
-    ],
-    "Mehedi Hasan"      => [
-        "designation"   => "Game Developer",
-        "memberURL"     => "team/mehedi-hasan.php",
-        "facebookURL"   => "https://facebook.com",
-        "twitterURL"    => "https://twitter.com",
-        "googlePlusURL" => "https://google.com",
-    ],
-    "Md. Rakib"         => [
-        "designation"   => "Game Developer",
-        "memberURL"     => "team/md-rakib.php",
-        "facebookURL"   => "https://facebook.com",
-        "twitterURL"    => "https://twitter.com",
-        "googlePlusURL" => "https://google.com",
-    ],
-    "Musfiqur Rahman"   => [
-        "designation"   => "Monetizer",
-        "memberURL"     => "team/musfiqur-rahman.php",
-        "facebookURL"   => "https://facebook.com",
-        "twitterURL"    => "https://twitter.com",
-        "googlePlusURL" => "https://google.com",
-    ],
-    "Sumaiya Sultana"   => [
-        "designation"   => "Designer",
-        "memberURL"     => "team/sumaiya-sultana.php",
-        "facebookURL"   => "https://facebook.com",
-        "twitterURL"    => "https://twitter.com",
-        "googlePlusURL" => "https://google.com",
-    ],
-    "Zahida Sultana"    => [
-        "designation"   => "Marketing",
-        "memberURL"     => "team/zahida-sultana.php",
-        "facebookURL"   => "https://facebook.com",
-        "twitterURL"    => "https://twitter.com",
-        "googlePlusURL" => "https://google.com",
-    ],
-    "Md. Naim Ahamed"   => [
-        "designation"   => "Marketing",
-        "memberURL"     => "team/md-naim-ahamed.php",
-        "facebookURL"   => "https://facebook.com",
-        "twitterURL"    => "https://twitter.com",
-        "googlePlusURL" => "https://google.com",
-    ],
-    "Afroza Sumi"       => [
-        "designation"   => "Graphics Designer",
-        "memberURL"     => "team/afroza-sumi.php",
-        "facebookURL"   => "https://facebook.com",
-        "twitterURL"    => "https://twitter.com",
-        "googlePlusURL" => "https://google.com",
-    ],
-    "Mamun Sarker"      => [
-        "designation"   => "Graphics Designer",
-        "memberURL"     => "team/mamun-sarker.php",
-        "facebookURL"   => "https://facebook.com",
-        "twitterURL"    => "https://twitter.com",
-        "googlePlusURL" => "https://google.com",
-    ],
-];
+                    $teamMember = [
+                        "Swajon Rahman"     => [
+                            "designation"   => "Graphics Designer",
+                            "memberURL"     => "team/swajon-rahaman.php",
+                            "facebookURL"   => "https://facebook.com",
+                            "twitterURL"    => "https://twitter.com",
+                            "googlePlusURL" => "https://google.com",
+                        ],
+                        "Mazma Mim"         => [
+                            "designation"   => "Game Designer",
+                            "memberURL"     => "team/mazma-mim.php",
+                            "facebookURL"   => "https://facebook.com",
+                            "twitterURL"    => "https://twitter.com",
+                            "googlePlusURL" => "https://google.com",
+                        ],
+                        "Suzana Haque Esha" => [
+                            "designation"   => "Game Designer",
+                            "memberURL"     => "team/suzana-haque-esha.php",
+                            "facebookURL"   => "https://facebook.com",
+                            "twitterURL"    => "https://twitter.com",
+                            "googlePlusURL" => "https://google.com",
+                        ],
+                        "Md Mehedi Hasan"   => [
+                            "designation"   => "Game Developer",
+                            "memberURL"     => "team/md-mehedi-hasan.php",
+                            "facebookURL"   => "https://facebook.com",
+                            "twitterURL"    => "https://twitter.com",
+                            "googlePlusURL" => "https://google.com",
+                        ],
+                        "Md Rulin Rahman"   => [
+                            "designation"   => "Game Developer",
+                            "memberURL"     => "team/md-rulin-rahman.php",
+                            "facebookURL"   => "https://facebook.com",
+                            "twitterURL"    => "https://twitter.com",
+                            "googlePlusURL" => "https://google.com",
+                        ],
+                        "Pulak Dhar"        => [
+                            "designation"   => "Sound Engineer",
+                            "memberURL"     => "team/pulak-dhar.php",
+                            "facebookURL"   => "https://facebook.com",
+                            "twitterURL"    => "https://twitter.com",
+                            "googlePlusURL" => "https://google.com",
+                        ],
+                        "Mehedi Hasan"      => [
+                            "designation"   => "Game Developer",
+                            "memberURL"     => "team/mehedi-hasan.php",
+                            "facebookURL"   => "https://facebook.com",
+                            "twitterURL"    => "https://twitter.com",
+                            "googlePlusURL" => "https://google.com",
+                        ],
+                        "Md. Rakib"         => [
+                            "designation"   => "Game Developer",
+                            "memberURL"     => "team/md-rakib.php",
+                            "facebookURL"   => "https://facebook.com",
+                            "twitterURL"    => "https://twitter.com",
+                            "googlePlusURL" => "https://google.com",
+                        ],
+                        "Musfiqur Rahman"   => [
+                            "designation"   => "Monetizer",
+                            "memberURL"     => "team/musfiqur-rahman.php",
+                            "facebookURL"   => "https://facebook.com",
+                            "twitterURL"    => "https://twitter.com",
+                            "googlePlusURL" => "https://google.com",
+                        ],
+                        "Sumaiya Sultana"   => [
+                            "designation"   => "Designer",
+                            "memberURL"     => "team/sumaiya-sultana.php",
+                            "facebookURL"   => "https://facebook.com",
+                            "twitterURL"    => "https://twitter.com",
+                            "googlePlusURL" => "https://google.com",
+                        ],
+                        "Zahida Sultana"    => [
+                            "designation"   => "Marketing",
+                            "memberURL"     => "team/zahida-sultana.php",
+                            "facebookURL"   => "https://facebook.com",
+                            "twitterURL"    => "https://twitter.com",
+                            "googlePlusURL" => "https://google.com",
+                        ],
+                        "Md. Naim Ahamed"   => [
+                            "designation"   => "Marketing",
+                            "memberURL"     => "team/md-naim-ahamed.php",
+                            "facebookURL"   => "https://facebook.com",
+                            "twitterURL"    => "https://twitter.com",
+                            "googlePlusURL" => "https://google.com",
+                        ],
+                        "Afroza Sumi"       => [
+                            "designation"   => "Graphics Designer",
+                            "memberURL"     => "team/afroza-sumi.php",
+                            "facebookURL"   => "https://facebook.com",
+                            "twitterURL"    => "https://twitter.com",
+                            "googlePlusURL" => "https://google.com",
+                        ],
+                        "Mamun Sarker"      => [
+                            "designation"   => "Graphics Designer",
+                            "memberURL"     => "team/mamun-sarker.php",
+                            "facebookURL"   => "https://facebook.com",
+                            "twitterURL"    => "https://twitter.com",
+                            "googlePlusURL" => "https://google.com",
+                        ],
+                    ];
 
-foreach ( $teamMember as $name => $memberValues ) {
-    ?>
+                    foreach ($teamMember as $name => $memberValues) {
+                    ?>
                         <div class="item-content third col-lg-4 col-md-4 col-sm-6 col-xs-12 mb30 equal-height wow fadeInUp" data-wow-duration="1s">
                             <div class="border-img">
                                 <img src="./assets/images/team/team-6.jpg" alt="" class="img-responsive">
@@ -194,15 +187,15 @@ foreach ( $teamMember as $name => $memberValues ) {
                             </div>
                         </div>
                     <?php
-}
+                    }
 
-?>
+                    ?>
                 </div>
             </div>
         </div>
     </section>
     <!-- TEAM END -->
-    <?php include "./inc/footer.php";?>
+    <?php include "./inc/footer.php"; ?>
     <!-- Scripts -->
     <script src="./assets/js/jquery-3.3.1.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>

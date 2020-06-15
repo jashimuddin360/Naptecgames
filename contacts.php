@@ -123,7 +123,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="status"></div>
-                    <form action="" class="contact-us-form mt100  form-area" method="post">
+                    <form class="contact-us-form mt100  form-area" method="post">
                         <div class="row">
                             <div class="input-wrap col-md-6 col-sm-6">
                                 <input type="text" id="name" class="general_input italic" placeholder="Full name" name="name">

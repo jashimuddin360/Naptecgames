@@ -1,11 +1,11 @@
 <!-- PRELOADER START -->
-<!-- <div class="loader-wrapper">
+<div class="loader-wrapper">
     <div class='cssload-loader'>
         <div class='cssload-inner cssload-one'></div>
         <div class='cssload-inner cssload-two'></div>
         <div class='cssload-inner cssload-three'></div>
     </div>
-</div> -->
+</div>
 <!-- PRELOADER END -->
 <!-- HEADER START -->
 <div class="header-line-wrapper">
@@ -23,7 +23,7 @@
                             <span></span>
                         </span>
                         <ul class="menu clearfix">
-                                <li class="inline-block active">
+                                <li class="inline-block">
                                     <a href="games.php">
                                         Games
                                     </a>
@@ -65,7 +65,7 @@
                                 </li>
 
                                 <li class="inline-block">
-                                    <a href="contacts.html">
+                                    <a href="contacts.php">
                                         Contacts
                                     </a>
                                 </li>

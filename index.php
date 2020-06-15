@@ -31,78 +31,76 @@
     <link rel="stylesheet" type="text/css" href="./assets/plugins/slider/css/smartslider.min.css" media="screen, print" />
 
     <style>
-
-
-
-
-.slider__button a{
-    font-family: 'Roboto', 'Arial';
-    color: #3dd0d8;
-    font-size: 87.5%;
-    text-shadow: none;
-    line-height: 1.5;
-    font-weight: 700;
-    font-style: normal;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: uppercase;
-    font-weight: 700;
-    border-radius: 10px;
-    box-shadow: 0 2px 4.8px 0.3px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease-out;
-    padding: 20px 38px;
-    background: #fff;
-}
-.slider__button a:hover{
-    color: #fff;
-    background: #3dd0d8;
-}
-
-
-.slider__desc p{
+        .slider__button a {
             font-family: 'Roboto', 'Arial';
-    color: #ffffff;
-    font-size: 87.5%;
-    text-shadow: none;
-    line-height: 1.5;
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-shadow: 0 2px 4.8px rgba(0, 0, 0, 0.3);
-    margin: 30px auto;
-    width: 70%;
+            color: #3dd0d8;
+            font-size: 87.5%;
+            text-shadow: none;
+            line-height: 1.5;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            text-align: center;
+            letter-spacing: normal;
+            word-spacing: normal;
+            text-transform: uppercase;
+            font-weight: 700;
+            border-radius: 10px;
+            box-shadow: 0 2px 4.8px 0.3px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease-out;
+            padding: 20px 38px;
+            background: #fff;
         }
-        .slider__desc{
+
+        .slider__button a:hover {
+            color: #fff;
+            background: #3dd0d8;
+        }
+
+
+        .slider__desc p {
+            font-family: 'Roboto', 'Arial';
+            color: #ffffff;
+            font-size: 87.5%;
+            text-shadow: none;
+            line-height: 1.5;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none;
+            text-align: center;
+            letter-spacing: normal;
+            word-spacing: normal;
+            text-transform: none;
+            text-shadow: 0 2px 4.8px rgba(0, 0, 0, 0.3);
+            margin: 30px auto;
+            width: 70%;
+        }
+
+        .slider__desc {
             margin: -20px 0px 13px 0px;
         }
 
-        .slider__head p{
+        .slider__head p {
             font-family: 'Roboto', 'Arial';
-    color: #ffffff;
-    font-size: 300%;
-    text-shadow: none;
-    line-height: 1;
-    font-weight: 700;
-    font-style: normal;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-shadow: 0 2px 4.8px rgba(0, 0, 0, 0.3);
-    font-family: "Agency FB";
-    display: block;
-    margin-bottom: 0px;
+            color: #ffffff;
+            font-size: 300%;
+            text-shadow: none;
+            line-height: 1;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            text-align: center;
+            letter-spacing: normal;
+            word-spacing: normal;
+            text-transform: uppercase;
+            font-weight: 700;
+            text-shadow: 0 2px 4.8px rgba(0, 0, 0, 0.3);
+            font-family: "Agency FB";
+            display: block;
+            margin-bottom: 0px;
         }
 
-        .slider__cta p{
+        .slider__cta p {
             font-family: 'Roboto', 'Arial';
             color: #ffffff;
             font-size: 600%;
@@ -125,23 +123,25 @@
 
         /* slider Animation Delay And show */
 
-        .head{
+        .head {
             animation-delay: .7s;
             animation-duration: 1.1s;
         }
-        .cta{
+
+        .cta {
             animation-delay: 1s;
             animation-duration: 1.4s;
         }
-        .desc{
+
+        .desc {
             animation-delay: 1.2s;
             animation-duration: 1.7s;
         }
 
-        .main-slider{
+        .main-slider {
             width: 100%;
             height: 100vh;
-            background-image: url("assets/images/slide-1.jpg") ;
+            background-image: url("assets/images/slide-1.jpg");
             background-repeat: no-repeat;
             background-position: center;
             display: flex;
@@ -149,12 +149,14 @@
             align-items: center;
             justify-content: center;
         }
-        @media screen and (max-width: 600px){
+
+        @media screen and (max-width: 600px) {
             .slider__cta p {
                 font-size: 200%;
             }
         }
-        @media screen and (max-width: 980px){
+
+        @media screen and (max-width: 980px) {
             .slider__cta p {
                 font-size: 400%;
             }
@@ -164,19 +166,19 @@
 
 <body>
 
-    <?php include "./inc/header.php";?>
+    <?php include "./inc/header.php"; ?>
 
     <!-- SLIDER START -->
-    <section class="main-slider" >
+    <section class="main-slider">
 
-        <div class="slider__head" >
-            <p class="animated fadeInRightBig	fast head" >Welcome to naptechgames</p>
+        <div class="slider__head">
+            <p class="animated fadeInRightBig	fast head">Welcome to naptechgames</p>
         </div>
-        <div class="slider__cta" >
-            <p class="animated fadeInLeftBig slow	cta" >Play For Fun</p>
+        <div class="slider__cta">
+            <p class="animated fadeInLeftBig slow	cta">Play For Fun</p>
         </div>
-        <div class="slider__desc" >
-            <p class="animated fadeInDownBig	desc" >This is a p tag Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt commodi, deserunt nisi error mollitia recusandae!</p>
+        <div class="slider__desc">
+            <p class="animated fadeInDownBig	desc">This is a p tag Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt commodi, deserunt nisi error mollitia recusandae!</p>
         </div>
         <div class="slider__button animated ">
             <a href="#" class=" animated fadeInUpBig button-anim">More About Us</a>
@@ -522,66 +524,66 @@
         <div class="bg-wrapper each-element mt90 clearfix">
             <div class="container">
                 <div class="row">
-<?php
-$blog = [
-    "Cow biltong pork belly kielbasa shankle"       => [
-        "description" => "Turducken cupim hamburger beef ribs picanha, drumstick buffalo tri-tip cow. Turducken prosciutto shank pork chop.",
-        "publishDate" => "mar 14, 2018",
-        "category"    => "xbox",
-        "image"       => "blog-img-1.jpg",
-        "comments"    => 0,
-        "blogURL"     => "blog/post.php",
-    ],
-    "Cow short ribs beef strip steak jowl"          => [
-        "description" => "Capicola beef ribs pastrami biltong pork chop corned beef alcatra tail landjaeger. Spare ribs t-bone buffalo capicola, pork belly.",
-        "publishDate" => "mar 14, 2018",
-        "category"    => "ps 3",
-        "image"       => "blog-img-2.jpg",
-        "comments"    => 0,
-        "blogURL"     => "blog/post.php",
-    ],
-    "Boudin shankle pork belly turducken spare rib" => [
-        "description" => "Turducken cupim hamburger beef ribs picanha, drumstick buffalo tri-tip cow. Turducken prosciutto shank pork chop.",
-        "publishDate" => "mar 14, 2018",
-        "category"    => "xbox",
-        "image"       => "blog-img-3.jpg",
-        "comments"    => 0,
-        "blogURL"     => "blog/post.php",
-    ],
-];
-foreach ( $blog as $blogName => $blogDetails ) {
-    ?>
-                    <div class="item col-lg-4 col-md-4 col-sm-12 col-sx-12">
-                        <a href="<?php echo $blogDetails['blogURL']; ?>" class="item-wrap">
-                            <div class="image">
-                                <img src="./assets/images/<?php echo $blogDetails['image']; ?>" alt="" class="img-responsive">
-                            </div>
-                            <div class="item-info equal-height">
-                                <div class="item-header table fsize-14 fweight-700 uppercase">
-                                    <div class="table-cell platform">xbox</div>
-                                    <div class="table-cell color-2 text-right"><?php echo $blogDetails['publishDate']; ?></div>
+                    <?php
+                    $blog = [
+                        "Cow biltong pork belly kielbasa shankle"       => [
+                            "description" => "Turducken cupim hamburger beef ribs picanha, drumstick buffalo tri-tip cow. Turducken prosciutto shank pork chop.",
+                            "publishDate" => "mar 14, 2018",
+                            "category"    => "xbox",
+                            "image"       => "blog-img-1.jpg",
+                            "comments"    => 0,
+                            "blogURL"     => "blog/post.php",
+                        ],
+                        "Cow short ribs beef strip steak jowl"          => [
+                            "description" => "Capicola beef ribs pastrami biltong pork chop corned beef alcatra tail landjaeger. Spare ribs t-bone buffalo capicola, pork belly.",
+                            "publishDate" => "mar 14, 2018",
+                            "category"    => "ps 3",
+                            "image"       => "blog-img-2.jpg",
+                            "comments"    => 0,
+                            "blogURL"     => "blog/post.php",
+                        ],
+                        "Boudin shankle pork belly turducken spare rib" => [
+                            "description" => "Turducken cupim hamburger beef ribs picanha, drumstick buffalo tri-tip cow. Turducken prosciutto shank pork chop.",
+                            "publishDate" => "mar 14, 2018",
+                            "category"    => "xbox",
+                            "image"       => "blog-img-3.jpg",
+                            "comments"    => 0,
+                            "blogURL"     => "blog/post.php",
+                        ],
+                    ];
+                    foreach ($blog as $blogName => $blogDetails) {
+                    ?>
+                        <div class="item col-lg-4 col-md-4 col-sm-12 col-sx-12">
+                            <a href="<?php echo $blogDetails['blogURL']; ?>" class="item-wrap">
+                                <div class="image">
+                                    <img src="./assets/images/<?php echo $blogDetails['image']; ?>" alt="" class="img-responsive">
                                 </div>
-                                <div class="item-title mt20" data-trim="40"><?php echo $blogName; ?></div>
-                                <div class="item-text mt25 lheight-26" data-trim="130">
-                                    <?php echo $blogDetails['description']; ?>
+                                <div class="item-info equal-height">
+                                    <div class="item-header table fsize-14 fweight-700 uppercase">
+                                        <div class="table-cell platform">xbox</div>
+                                        <div class="table-cell color-2 text-right"><?php echo $blogDetails['publishDate']; ?></div>
+                                    </div>
+                                    <div class="item-title mt20" data-trim="40"><?php echo $blogName; ?></div>
+                                    <div class="item-text mt25 lheight-26" data-trim="130">
+                                        <?php echo $blogDetails['description']; ?>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="author-comment table">
-                                <div class="table-cell valign-middle">
-                                    <i class="fa fa-user color-1 fsize-14" aria-hidden="true"></i>
-                                    <span class="color-2 ml5">by Admin</span>
+                                <div class="author-comment table">
+                                    <div class="table-cell valign-middle">
+                                        <i class="fa fa-user color-1 fsize-14" aria-hidden="true"></i>
+                                        <span class="color-2 ml5">by Admin</span>
+                                    </div>
+                                    <div class="table-cell valign-middle text-right">
+                                        <i class="fa fa-comment color-1 fsize-14" aria-hidden="true"></i>
+                                        <span class="color-2 ml5"><?php echo $blogDetails['comments']; ?></span>
+                                    </div>
                                 </div>
-                                <div class="table-cell valign-middle text-right">
-                                    <i class="fa fa-comment color-1 fsize-14" aria-hidden="true"></i>
-                                    <span class="color-2 ml5"><?php echo $blogDetails['comments']; ?></span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-    <?php
+                            </a>
+                        </div>
+                    <?php
 
-}
-?>
+                    }
+                    ?>
                 </div>
             </div>
         </div>
@@ -730,9 +732,9 @@ foreach ( $blog as $blogName => $blogDetails ) {
                                             Using Banner Stands To Increase Trade
                                         </a>
                                         <div class="text-center mt30">
-                                        <a href="./assets/images/gallery/gallery-2.jpg" class="item-btn inline-block valign-middle test-popup-link">
+                                            <a href="./assets/images/gallery/gallery-2.jpg" class="item-btn inline-block valign-middle test-popup-link">
                                                 <i class="fa fa-search" aria-hidden="true"></i>
-                                        </a>
+                                            </a>
 
                                         </div>
                                     </div>
@@ -787,293 +789,8 @@ foreach ( $blog as $blogName => $blogDetails ) {
         </div>
     </section>
     <!-- GALLERY SECTION END -->
-    <!-- STREAMS SECTION START -->
-    <section class="ptb150">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 st-tabs tabs mt70">
-                    <div class="tabs-nav">
-                        <ul class="list-inline nav nav-tabs">
-                            <li class="active col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                <a href="#stream-1" data-toggle="tab">
-                                    <div class="tab-title">
-                                        Most popular streams
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                <a href="#stream-2" data-toggle="tab">
-                                    <div class="tab-title">
-                                        Upcoming Competitions
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                <a href="#stream-3" data-toggle="tab">
-                                    <div class="tab-title">
-                                        Prosciutto meatball flank
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="tab-content stream-bl relative">
-                        <div class="tab-pane fade active in text-left clearfix" id="stream-1">
-                            <div class="left-col col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <div class="video-bl equal-height">
-                                <div class="image_bg equal-height" style="background-image: url('./assets/images/competition-full.jpg');">
-                                    <div class="bottom-bar">
-                                        <a href="#" class="btn gradient color-white plr50 ptb19">
-                                            Contact us now
-                                        </a>
-                                    </div>
-                                </div>
-                                    <!-- <div class="buttonbar mt75">
-                                        <div id="play" class="play-show play relative fsize-24 inline-block">
-                                            <div class="pp-wrapper">
-                                                <i class="fa fa-play color-white" aria-hidden="true"></i>
-                                                <i class="fa fa-pause color-white" aria-hidden="true"></i>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                    <!-- <div class="video-bottom">
-                                        <div class="video-title">
-                                            Tenderloin shoulder picanha rump
-                                        </div>
-                                        <div class="mt15">
-                                            <div class="stream-img">
-                                                <img src="./assets/images/stream-img-1.jpg" alt="">
-                                            </div>
-                                            <div class="stream-img">
-                                                <img src="./assets/images/stream-img-2.jpg" alt="">
-                                            </div>
-                                            <div class="stream-img">
-                                                <img src="./assets/images/stream-img-3.jpg" alt="">
-                                            </div>
-                                            <div class="inline-block valign-middle color-white ml15">
-                                                2569 watching now
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                </div>
-                            </div>
-                            <div class="right-col col-lg-6 col-md-6 col-sm-12 col-xs-12 equal-height">
-                                <div class="top-wrapp">
-                                    <div class="fsize-24 fweight-700 font-agency color-white uppercase lheight-28">
-                                        Create Your own channel and Start to Stream games now
-                                    </div>
-                                    <div class="mt40 lheight-26">
-                                        Drumstick meatloaf capicola short ribs, pork chop cupim kielbasa jerky porchetta pancetta chicken pastrami turkey tenderloin
-                                        sausage. Pig buffalo alcatra meatball. T-bone hamburger bresaola kevin shank porchetta
-                                        ground. Round beef tail tri-tip. Short loin pork strip steak venison.
-                                    </div>
-                                    <a href="#" class="btn gradient color-white plr40 ptb19 mt30">
-                                        Get started now
-                                    </a>
-                                </div>
-                                <div class="bottom-wrapp mt40">
-                                    <div class="fsize-24 fweight-700 font-agency uppercase color-white">9 136 streams from most recent games</div>
-                                    <div>267 347 watching now</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade in competition text-left clearfix" id="stream-2">
-                            <div class="left-col col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <div class="image_bg equal-height" style="background-image: url('./assets/images/competition-full.jpg');">
-                                    <div class="bottom-bar">
-                                        <a href="#" class="btn gradient color-white plr50 ptb19">
-                                            Contact us now
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="right-col col-lg-6 col-md-6 col-sm-12 col-xs-12 equal-height">
-                                <div class="item-g">
-                                    <div class="img-com inline-block valign-middle">
-                                        <img src="./assets/images/competition-1.jpg" alt="">
-                                    </div>
-                                    <div class="info-bl inline-block valign-middle ml25">
-                                        <div class="fsize-24 fweight-700 font-agency uppercase color-white" data-trim="35">Shankle ribeye bacon</div>
-                                        <div>267 347 participants</div>
-                                    </div>
-                                </div>
-                                <div class="item-g">
-                                    <div class="img-com inline-block valign-middle">
-                                        <img src="./assets/images/competition-2.jpg" alt="">
-                                    </div>
-                                    <div class="info-bl inline-block valign-middle ml25">
-                                        <div class="fsize-24 fweight-700 font-agency uppercase color-white" data-trim="35">Doner bresaola pork Kielbasa</div>
-                                        <div>267 347 participants</div>
-                                    </div>
-                                </div>
-                                <div class="item-g">
-                                    <div class="img-com inline-block valign-middle">
-                                        <img src="./assets/images/competition-3.jpg" alt="">
-                                    </div>
-                                    <div class="info-bl inline-block valign-middle ml25">
-                                        <div class="fsize-24 fweight-700 font-agency uppercase color-white" data-trim="35">Kielbasa fatback alcatr</div>
-                                        <div>267 347 participants</div>
-                                    </div>
-                                </div>
-                                <div class="item-g">
-                                    <div class="img-com inline-block valign-middle">
-                                        <img src="./assets/images/competition-4.jpg" alt="">
-                                    </div>
-                                    <div class="info-bl inline-block valign-middle ml25">
-                                        <div class="fsize-24 fweight-700 font-agency uppercase color-white" data-trim="35">Bacon tenderloin drumstick meatball</div>
-                                        <div>267 347 participants</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade in competition text-left clearfix" id="stream-3">
-                            <div class="left-col col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <div class="image_bg equal-height" style="background-image: url('./assets/images/competition-full.jpg');">
-                                    <div class="bottom-bar">
-                                        <a href="#" class="btn gradient color-white plr50 ptb19">
-                                            Contact us now
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="right-col col-lg-6 col-md-6 col-sm-12 col-xs-12 equal-height">
-                                <div class="item-g">
-                                    <div class="img-com inline-block valign-middle">
-                                        <img src="./assets/images/competition-1.jpg" alt="">
-                                    </div>
-                                    <div class="info-bl inline-block valign-middle ml25">
-                                        <div class="fsize-24 fweight-700 font-agency uppercase color-white" data-trim="35">Shankle ribeye bacon</div>
-                                        <div>267 347 participants</div>
-                                    </div>
-                                </div>
-                                <div class="item-g">
-                                    <div class="img-com inline-block valign-middle">
-                                        <img src="./assets/images/competition-2.jpg" alt="">
-                                    </div>
-                                    <div class="info-bl inline-block valign-middle ml25">
-                                        <div class="fsize-24 fweight-700 font-agency uppercase color-white" data-trim="35">Doner bresaola pork Kielbasa</div>
-                                        <div>267 347 participants</div>
-                                    </div>
-                                </div>
-                                <div class="item-g">
-                                    <div class="img-com inline-block valign-middle">
-                                        <img src="./assets/images/competition-3.jpg" alt="">
-                                    </div>
-                                    <div class="info-bl inline-block valign-middle ml25">
-                                        <div class="fsize-24 fweight-700 font-agency uppercase color-white" data-trim="35">Kielbasa fatback alcatr</div>
-                                        <div>267 347 participants</div>
-                                    </div>
-                                </div>
-                                <div class="item-g">
-                                    <div class="img-com inline-block valign-middle">
-                                        <img src="./assets/images/competition-4.jpg" alt="">
-                                    </div>
-                                    <div class="info-bl inline-block valign-middle ml25">
-                                        <div class="fsize-24 fweight-700 font-agency uppercase color-white" data-trim="35">Bacon tenderloin drumstick meatball</div>
-                                        <div>267 347 participants</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- STREAMS SECTION END -->
-    <!-- PRICE SECTION START -->
-    <!-- <section class="price ptb150">
-        <div class="container">
-            <div class="row">
-                <div class="title-bl text-center wow fadeIn" data-wow-duration="2s">
-                    <div class="title color-white">
-                        Our Pricing Plans
-                    </div>
-                    <div class="subtitle">
-                        Spesial Plans
-                    </div>
-                </div>
-                <div class="mt90">
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-duration="2s">
-                        <div class="item standart text-center">
-                            <div class="ptb30 fsize-24 fweight-700 font-agency uppercase color-white">
-                                Standard Plan
-                            </div>
-                            <div class="current-bl color-white pt25 pb20">
-                                <div class="font-agency fweight-700 lheight-30">
-                                    <span class="fsize-24">$</span>
-                                    <span class="fsize-48">39</span>
-                                    <span class="fsize-24">99</span>
-                                </div>
-                                <div class="fsize-14 uppercase fweight-700">
-                                    Per mouth
-                                </div>
-                            </div>
-                            <div class="price-content equal-height">
-                                <div class="item-list">Pork Ground Found Biltong</div>
-                                <div class="item-list">Capicola Sausage Beef Ribs</div>
-                                <div class="item-list">Pork Doner Frankfurter</div>
-                            </div>
-                            <div class="text-center pb60">
-                                <a href="#" class="btn border-btn color-white plr50 ptb19">Buy Plan Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeInDown" data-wow-duration="1s">
-                        <div class="item gold text-center">
-                            <div class="ptb30 fsize-24 fweight-700 font-agency uppercase color-white">
-                                Golden Plan
-                            </div>
-                            <div class="current-bl color-white pt25 pb20">
-                                <div class="font-agency fweight-700 lheight-30">
-                                    <span class="fsize-24">$</span>
-                                    <span class="fsize-48">59</span>
-                                    <span class="fsize-24">59</span>
-                                </div>
-                                <div class="fsize-14 uppercase fweight-700">
-                                    Per mouth
-                                </div>
-                            </div>
-                            <div class="price-content equal-height">
-                                <div class="item-list">Doner Boudin Rump Picanha</div>
-                                <div class="item-list">Leberkas Kevin Drumstick</div>
-                                <div class="item-list">Beef Mignon Bresaola</div>
-                            </div>
-                            <div class="text-center pb60">
-                                <a href="#" class="btn border-btn color-white plr50 ptb19">Buy Plan Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeInRight" data-wow-duration="2s">
-                        <div class="item platinum text-center">
-                            <div class="ptb30 fsize-24 fweight-700 font-agency uppercase color-white">
-                                Platinum Plan
-                            </div>
-                            <div class="current-bl color-white pt25 pb20">
-                                <div class="font-agency fweight-700 lheight-30">
-                                    <span class="fsize-24">$</span>
-                                    <span class="fsize-48">89</span>
-                                    <span class="fsize-24">39</span>
-                                </div>
-                                <div class="fsize-14 uppercase fweight-700">
-                                    Per mouth
-                                </div>
-                            </div>
-                            <div class="price-content equal-height">
-                                <div class="item-list">Bresaola Shoulder Venison </div>
-                                <div class="item-list">Frankfurter Cow Ribeye Kielbasa</div>
-                                <div class="item-list">Cupim Drumstick Tail Pancetta</div>
-                            </div>
-                            <div class="text-center pb60">
-                                <a href="#" class="btn border-btn color-white plr50 ptb19">Buy Plan Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- PRICE SECTION END -->
+
+
     <!-- FAQ SECTION START -->
     <section class=" price ptb150">
         <div class="container">
@@ -1203,7 +920,7 @@ foreach ( $blog as $blogName => $blogDetails ) {
         </div>
     </section>
     <!-- REGISTER SECTION END -->
-    <?php include "./inc/footer.php"?>
+    <?php include "./inc/footer.php" ?>
     <a href="#" id="toTop" class="color-white">
         <i class="fa fa-angle-up fsize-14" aria-hidden="true"></i>
     </a>

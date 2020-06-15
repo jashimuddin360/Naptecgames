@@ -59,8 +59,8 @@
                             <div class="filter-item active" data-filter="all">
                                 All
                             </div>
-                            <div class="filter-item" data-filter="origin">
-                                Origin
+                            <div class="filter-item" data-filter="Hyper-Casual-Game">
+                            Hyper Casual Game
                             </div>
                             <div class="filter-item" data-filter="playstation-4">
                                 Playstation 4
@@ -78,30 +78,15 @@
                         <div class="item_container relative mt40">
                             <?php
 $game = [
-    "Rackless Ball"       => [
-        "category"      => "origin",
-        "pageURL"       => "rackless-game.php",
-        "description"   => "Tri-tip chuck bresaola, pork pig short ribs tail tenderloin prosciutto ",
+    "Rackless Ball" => [
+        "category"      => "Hyper-Casual-Game",
+        "pageURL"       => "rackless-ball.php",
+        "description"   => "In the dark world, the neon's ball is running through thousands of obstacles to its own destination.",
         "playstoreLink" => "https://pl;aystore.com",
         "appstoreLink"  => "https://pl;aystore.com",
         "image"         => "image.png",
     ],
-    "Rackless Ball Copy"  => [
-        "category"      => "origin",
-        "pageURL"       => "rackless-game.php",
-        "description"   => "Tri-tip chuck b pork pig short ribs tail tenderloin prosciutto shoulder turkey ",
-        "playstoreLink" => "https://pl;aystore.com",
-        "appstoreLink"  => "https://pl;aystore.com",
-        "image"         => "image.png",
-    ],
-    "Rackless Ball Copy2" => [
-        "category"      => "origin",
-        "pageURL"       => "rackless-game.php",
-        "description"   => "Tri-tip chuck b pork pig short ribs tail tenderloin prosciutto shoulder turkey  ",
-        "playstoreLink" => "https://pl;aystore.com",
-        "appstoreLink"  => "https://pl;aystore.com",
-        "image"         => "image.png",
-    ],
+
 ];
 
 foreach ( $game as $gameName => $gameDetails ) {
@@ -113,7 +98,7 @@ foreach ( $game as $gameName => $gameDetails ) {
                                         </div>
                                         <div class="bottom-info background-4 text-center p30">
                                             <div class="category fsize-14 fweight-700 color-1 uppercase">
-                                                Origin
+                                            Hyper Casual Game
                                             </div>
                                             <a href="game/<?php echo $gameDetails['pageURL']; ?>" class="img-name">
                                                 <h5 data-trim="40">
