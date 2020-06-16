@@ -1,0 +1,3 @@
+on style.css this change made
+1.h1{ font size:60px}
+2.h1{color:white}
