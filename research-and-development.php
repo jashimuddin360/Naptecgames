@@ -33,7 +33,7 @@
 </head>
 
 <body>
-    <?php include "./inc/header.php";?>
+    <?php include "./inc/header.php"; ?>
     <!-- PAGE NAME START -->
     <section class="page-name parallax" data-paroller-factor="0.1" data-paroller-type="background" data-paroller-direction="vertical">
         <div class="container">
@@ -52,11 +52,74 @@
 
     <!-- Start Your Research and Development Code -->
 
+    <section class="R_and_D ptb50">
+        <div class="container">
+            <div class="title-bl text-center wow fadeIn" data-wow-duration="2s">
+                <div class="title color-white" style=" padding-bottom: 20px ;">
+                    <h1>Research & Development</h1>
+                </div>
+            </div>
+            <img src="./assets/images/pie-chart-status-individuals.jpg" alt="" class="img-responsive alignright">
+            <p style="color: white">Shankle kielbasa jowl alcatra sausage t-bone beef ribs pancetta boudin flank capicola. Venison pork belly pancetta, tongue landjaeger hamburger short ribs pig. Bresaola landjaeger meatloaf venison kevin chicken, pork chop ham hock short ribs porchetta pastrami tongue tri-tip beef ribs. Pork capicola hamburger burgdoggen chuck tail shankle boudin pig.</p>
+            <p style="color: white">Chuck jowl pork loin rump doner capicola pork biltong corned beef chicken tail. Ham andouille pork belly swine tenderloin beef ribs. Ground round pork belly ball tip frankfurter sausage t-bone meatloaf, tail salami. Hamburger kielbasa filet mignon pork loin turducken. Bacon jerky ham sausage, beef pork chop tongue spare ribs pastrami picanha t-bone turkey. Leberkas fatback.</b></p>
+            <p style="color: white">Rump cow porchetta, andouille pork belly landjaeger turkey salami ham shankle buffalo pork loin sausage picanha. Jowl ham hock andouille, chicken meatloaf strip steak buffalo salami leberkas alcatra ham prosciutto.</p>
+            <img src="./assets/images/pie-chart-status-individuals.jpg" alt="" class="img-responsive alignleft">
+            <p class="mb20" style="color: white">Jerky leberkas pork pancetta pig, flank burgdoggen kevin turkey ham venison ground round hamburger. Strip steak turkey pork ball tip. Cow tongue jowl leberkas. Capicola alcatra pork loin shoulder kevin shankle, ham hock landjaeger porchetta chicken cupim leberkas biltong jowl.</p>
+            <p style="color: white"> biltong pancetta, boudin spare ribs andouille pork chop. Cow spare ribs capicola tri-tip cupim frankfurter landjaeger leberkas jowl strip steak kevin pork t-bone. Shankle corned beef pork belly tenderloin ham hock. Chuck jowl boudin, drumstick kielbasa meatball.</p>
+            <p style="color: white">Meatloaf porchetta sausage fatback capicola corned beef kevin venison jerky. Spare ribs tenderloin alcatra corned beef. Kielbasa pig bresaola brisket.</p>
+            <p style="color: white">Bacon short loin chuck pancetta. Drumstick hamburger pancetta buffalo, turkey pork chop ribeye frankfurter biltong landjaeger ground round venison. Alcatra cupim capicola, turducken chuck beef ball tip brisket. </p>
+            <br>
+            <br>
+            <br>
+            <!---------------------Layout Design Start--------------------------------------->
+            <div class="row">
+                <div class="col-sm-6">
+                    <p style="color: white">
+                        Short ribs pork loin pork, shank meatloaf rump strip steak tail ham pig biltong filet mignon. Ground round capicola jowl
+                        filet mignon. Meatloaf pork chop short ribs andouille, turducken chicken tenderloin ball tip pancetta.
+                        Brisket kevin shank alcatra, andouille beef sausage jerky ham hock ground round flank cow.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <p style="color: white">
+                        Short ribs pork loin pork, shank meatloaf rump strip steak tail ham pig biltong filet mignon. Ground round capicola jowl
+                        filet mignon. Meatloaf pork chop short ribs andouille, turducken chicken tenderloin ball tip pancetta.
+                        Brisket kevin shank alcatra, andouille beef sausage jerky ham hock ground round flank cow.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <p style="color:white">
+                        Short ribs pork loin pork, shank meatloaf rump strip steak tail ham pig biltong filet mignon. Ground round capicola jowl
+                        filet mignon. Meatloaf pork chop short ribs andouille, turducken chicken tenderloin ball tip pancetta.
+                        Brisket kevin shank alcatra, andouille beef sausage jerky ham hock ground round flank cow.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <p style="color: white">
+                        Short ribs pork loin pork, shank meatloaf rump strip steak tail ham pig biltong filet mignon. Ground round capicola jowl
+                        filet mignon. Meatloaf pork chop short ribs andouille, turducken chicken tenderloin ball tip pancetta.
+                        Brisket kevin shank alcatra, andouille beef sausage jerky ham hock ground round flank cow.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <p style="color: white">
+                        Short ribs pork loin pork, shank meatloaf rump strip steak tail ham pig biltong filet mignon. Ground round capicola jowl
+                        filet mignon. Meatloaf pork chop short ribs andouille, turducken chicken tenderloin ball tip pancetta.
+                        Brisket kevin shank alcatra, andouille beef sausage jerky ham hock ground round flank cow.
+                    </p>
+                </div>
 
+            </div>
+        </div>
+    </section>
 
     <!-- End Your Research and Development Code -->
 
-    <?php include "./inc/footer.php";?>
+    <?php include "./inc/footer.php"; ?>
     <!-- Scripts -->
     <script src="./assets/js/jquery-3.3.1.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
