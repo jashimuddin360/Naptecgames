@@ -1,0 +1,238 @@
+/* ----------------------- */
+/* media qurey */
+/* --------------- */
+@media all and (max-width:1199px) {
+    .about h1 {
+        font-size: 30px;
+
+
+    }
+}
+
+@media all and (max-width:991px) {
+    .about h1 {
+        font-size: 20px;
+
+
+    }
+
+    input {
+        width: 350px;
+    }
+
+    .right {
+        margin-top: 200px;
+    }
+
+
+    .left {
+        padding: 0;
+    }
+
+    .pl-80 {
+        padding-left: 20px;
+    }
+
+    .pr-80 {
+        padding-right: 20px;
+    }
+
+    .right {
+        position: relative;
+        top: -110px;
+    }
+
+    .opportunity {
+        position: absolute;
+        top: 280%;
+        height: 300px;
+    }
+
+    .information {
+        position: absolute;
+        top: 140%;
+    }
+
+    .left {
+        padding: 0;
+
+    }
+
+    .cont-img img {
+        position: relative;
+        top: -140px;
+    }
+
+    .sub-btn {
+        margin: 50px auto;
+        display: block;
+    }
+
+}
+
+@media all and (max-width:421px) {
+    .convinence h1 {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .opportunity {
+
+        height: 400px;
+    }
+
+    .mb-50 {
+        margin-bottom: 20px;
+    }
+
+    .sub-btn {
+        width: 100px;
+    }
+
+    .new {
+        width: 300px;
+    }
+
+    .convinence h1 {
+        font-size: 21px !important;
+    }
+}
+
+@media all and (max-width:446px) {
+    .opportunity {
+
+        height: 500px;
+
+    }
+
+    .mb-50 {
+        margin-bottom: 15px;
+    }
+
+    .convinence h1 {
+        font-size: 15px !important;
+    }
+}
+
+@media all and (max-width:1199px) {
+
+    .mt-100 {
+        margin-top: 20px;
+    }
+
+    .left h1 {
+        font-size: 20px;
+    }
+
+    .c_p {
+        line-height: 25px;
+    }
+
+    .new {
+        width: 225px;
+    }
+
+    .sub-btn {
+        width: 100px;
+        height: 50px;
+    }
+}
+
+@media all and (max-width:500px) {
+    .left h1 {
+        font-size: 20px;
+    }
+
+    .contact h1 {
+        font-size: 18px;
+    }
+
+    .new {
+        width: 225px;
+    }
+
+    .sub-btn {
+        width: 100px;
+        height: 50px;
+    }
+
+    .information h1 {
+        font-size: 16px !important;
+    }
+
+    .opportunity {
+        height: 460px;
+    }
+}
+
+@media all and (max-width:529px) {
+    .convinence h1 {
+        font-size: 18px !important;
+    }
+}
+
+@media all and (max-width:458px) {
+    .convinence h1 {
+        font-size: 16px !important;
+    }
+}
+
+@media all and (max-width:420px) {
+    .convinence h1 {
+        font-size: 16px !important;
+    }
+
+    span {
+        font-size: 16px !important;
+    }
+}
+
+@media all and (max-width:411px) {
+    .convinence h1 {
+        font-size: 14px !important;
+    }
+
+    .about h1 {
+        font-size: 14px !important;
+    }
+
+    .information h1 {
+        font-size: 14px !important;
+    }
+}
+
+@media all and (max-width:387px) {
+    span {
+        font-size: 14px !important;
+    }
+
+    .information h1 {
+        font-size: 14px !important;
+        float: left;
+    }
+
+    input {
+
+        width: 50% !important;
+    }
+
+}
+
+@media all and (max-width:914px) {
+    .convinence h1 {
+        font-size: 25px;
+    }
+
+    .information h1 {
+        font-size: 25px;
+    }
+
+    .new {
+        width: 345px;
+    }
+
+    .sub-btn {
+        width: 200px;
+    }
+}
