@@ -4303,14 +4303,13 @@ footer.footer .copyright {
   height: 55vh;
 }
 
-/* 
 .internship-header {
   background-image: url(../images/about/header12.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
- 
-} */
+  height: 55vh;
+}
 
 .team-header {
   background-image: url(../images/team/banner.png);

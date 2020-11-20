@@ -73,21 +73,21 @@
                     <?php
 
                     $teamMember = [
-                        "Muhammad Hosain"     => [
-                            "designation"   => "Game Producer",
-                            "memberImage"   => "assets/images/team/musabbir.jpg",
-                            // "memberURL"     => "team/swajon-rahaman.php",
-                            // "facebookURL"   => "https://facebook.com",
-                            // "twitterURL"    => "https://twitter.com",
-                            // "googlePlusURL" => "https://google.com",
+                        // "Muhammad Hosain"     => [
+                        //     "designation"   => "Game Producer",
+                        //     "memberImage"   => "assets/images/team/musabbir.jpg",
+                        //     // "memberURL"     => "team/swajon-rahaman.php",
+                        //     // "facebookURL"   => "https://facebook.com",
+                        //     // "twitterURL"    => "https://twitter.com",
+                        //     // "googlePlusURL" => "https://google.com",
+                        // ],
+                        "Suzana Haque Esha"         => [
+                            "designation"   => "Game Designer",
+                            "memberImage"   => "assets/images/team/suzana-esha.jpg"
                         ],
                         "Mazma Akter Mim"         => [
                             "designation"   => "Game Designer",
                             "memberImage"   => "assets/images/team/mim.jpg"
-                        ],
-                        "Suzana Haque Esha"         => [
-                            "designation"   => "Game Designer",
-                            "memberImage"   => "assets/images/team/suzana-esha.jpg"
                         ],
                         "Sumaiya Sultana"         => [
                             "designation"   => "Game Artist",

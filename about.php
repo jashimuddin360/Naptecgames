@@ -112,63 +112,63 @@
     </section>
     <!-- SECTION END -->
     <!-- TEAM START -->
-    <section class=" leaders pt90">
-        <div class="container">
-            <div class="row">
-                <div class="title-bl text-center wow fadeIn" data-wow-duration="5s">
-                    <div class="title color-white">
-                        Our Leaders
-                    </div>
-                </div>
-                <div class="container-wrapper mt30">
-                    <div class="item-content second col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30 equal-height wow fadeInUp" data-wow-duration="1s">
-                        <div class="border-img">
-                            <img src="assets/images/about/leader/zakia-sultana.jpg" alt="" class="img-responsive">
-                        </div>
-                        <div class="text-container background-4 text-center" style="background-color: #080808; ">
-                            <a href="#" class="name font-agency fsize-32 fweight-700 lheight-32 color-white">
-                                Zakia Sultana
-                            </a>
-                            <div class="position mt10">
-                                Chairman <br>
+    <!--<section class=" leaders pt90">-->
+    <!--    <div class="container">-->
+    <!--        <div class="row">-->
+    <!--            <div class="title-bl text-center wow fadeIn" data-wow-duration="5s">-->
+    <!--                <div class="title color-white">-->
+    <!--                    Our Leaders-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="container-wrapper mt30">-->
+    <!--                <div class="item-content second col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30 equal-height wow fadeInUp" data-wow-duration="1s">-->
+    <!--                    <div class="border-img">-->
+    <!--                        <img src="assets/images/about/leader/zakia-sultana.jpg" alt="" class="img-responsive">-->
+    <!--                    </div>-->
+    <!--                    <div class="text-container background-4 text-center" style="background-color: #080808; ">-->
+    <!--                        <a href="#" class="name font-agency fsize-32 fweight-700 lheight-32 color-white">-->
+    <!--                            Zakia Sultana-->
+    <!--                        </a>-->
+    <!--                        <div class="position mt10">-->
+    <!--                            Chairman <br>-->
                                 <!-- <span style="color: #fff;">Ph.D. Researcher ( Woman Entrepreneurs at Southampton Solent University, United Kingdom)</span>-->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item-content first col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30 equal-height wow fadeInUp" data-wow-duration="1s">
-                        <div class="border-img">
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--                <div class="item-content first col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30 equal-height wow fadeInUp" data-wow-duration="1s">-->
+    <!--                    <div class="border-img">-->
 
-                            <img src="assets/images/about/leader/musabbir.jpg" alt="" class="img-responsive">
-                        </div>
-                        <div class="text-container background-4 text-center" style="background-color: #080808; ">
-                            <a href="#" class="name font-agency fsize-32 fweight-700 lheight-32 color-white">
+    <!--                        <img src="assets/images/about/leader/musabbir.jpg" alt="" class="img-responsive">-->
+    <!--                    </div>-->
+    <!--                    <div class="text-container background-4 text-center" style="background-color: #080808; ">-->
+    <!--                        <a href="#" class="name font-agency fsize-32 fweight-700 lheight-32 color-white">-->
 
-                                Muhammad Hosain
-                            </a>
-                            <div class="position mt10">
-                                Managing Director
-                            </div>
-                        </div>
-                    </div>
+    <!--                            Muhammad Hosain-->
+    <!--                        </a>-->
+    <!--                        <div class="position mt10">-->
+    <!--                            Managing Director-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
 
-                    <div class="item-content second col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30 equal-height wow fadeInUp" data-wow-duration="1s">
-                        <div class="border-img">
-                            <img src="assets/images/about/leader/MD-sir.jpg" alt="" class="img-responsive">
-                        </div>
-                        <div class="text-container background-4 text-center" style="background-color: #080808; ">
-                            <a href="#" class="name font-agency fsize-32 fweight-700 lheight-32 color-white">
-                                Md. Basit Bin Islam
-                            </a>
-                            <div class="position mt10">
-                                Director
-                            </div>
-                        </div>
-                    </div>
+    <!--                <div class="item-content second col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30 equal-height wow fadeInUp" data-wow-duration="1s">-->
+    <!--                    <div class="border-img">-->
+    <!--                        <img src="assets/images/about/leader/MD-sir.jpg" alt="" class="img-responsive">-->
+    <!--                    </div>-->
+    <!--                    <div class="text-container background-4 text-center" style="background-color: #080808; ">-->
+    <!--                        <a href="#" class="name font-agency fsize-32 fweight-700 lheight-32 color-white">-->
+    <!--                            Md. Basit Bin Islam-->
+    <!--                        </a>-->
+    <!--                        <div class="position mt10">-->
+    <!--                            Director-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
 
-                </div>
-            </div>
-        </div>
-    </section>
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</section>-->
     <!-- <section class=" leaders ptb90">
         <div class="container">
             <div class="row">
